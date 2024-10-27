@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave 8 partial view og view component", "Opgave 8 partial view og view component\Opgave 8 partial view og view component.csproj", "{35291BCA-3CA4-49EB-BFAC-33C4C7CD41FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35291BCA-3CA4-49EB-BFAC-33C4C7CD41FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35291BCA-3CA4-49EB-BFAC-33C4C7CD41FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35291BCA-3CA4-49EB-BFAC-33C4C7CD41FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35291BCA-3CA4-49EB-BFAC-33C4C7CD41FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7A30D4F-6E04-4CB2-AD22-A276A1C37B15}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿@model List<Opgave_8_partial_view_og_view_component.Models.Person>
+
+<h1>Liste over alle personer</h1>
+
+
+<ul>
+    @foreach (var person in Model)
+    {
+        @* partial view  *@
+        @* @await Html.PartialAsync("_VisEn", person) <!-- Send den enkelte person --> *@
+        @* Eller brug Partial Tag Helper *@
+        @* <partial name="_VisEn" model="person" /> *@
+
+        @* view  component  *@
+        @await Component.InvokeAsync("VisEnPerson", new { p = person })
+    }
+</ul>

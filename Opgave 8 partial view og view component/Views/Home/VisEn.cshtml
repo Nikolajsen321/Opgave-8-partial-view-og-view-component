@@ -1,0 +1,15 @@
+﻿@model Opgave_8_partial_view_og_view_component.Models.Person
+
+<h1>Person Detaljer</h1>
+
+
+@* dette er partial view  *@
+
+@* @await Html.PartialAsync("_VisEn", Model)   *@
+
+
+@* view component  *@
+@await Component.InvokeAsync("VisEnPerson", new { p = Model })
+
+
+

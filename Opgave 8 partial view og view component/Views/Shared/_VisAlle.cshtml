@@ -1,0 +1,8 @@
+﻿@using Opgave_8_partial_view_og_view_component.Models>
+
+@model List<Person> 
+
+@foreach(var person in Model)
+    {
+        <li>@person.Navn   Alder: @person.Alder </li>
+    }
